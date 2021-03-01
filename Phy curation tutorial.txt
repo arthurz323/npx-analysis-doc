@@ -1,0 +1,82 @@
+# Phy curation tutorial notes
+
+## Terminology:
+    peak channel: the channel that has the highest  highlighted in blue in ClusterView
+
+
+
+Amplitude View:
+    1. x-axis - time; y-axis - amplitude (scaling factor)
+
+    2. the amplitude is NOT in mV, but the amplitude in the unit of the amplitude scaling factor, relative to the shape of the waveform; also noted in the ClusterView "amplitude"
+
+    3. expect the neuron has a Gaussian distribution, indicating that there are actual spikes; if the distribution is cut-off (not complete Gaussian), then there are spikes missing, not registered by npx
+
+    4. grey shows peaks from all other units that picked up by the peak channel
+
+
+
+Waveform View:
+    1. x-aixs - time; y-axis - amplitude (mV)
+    
+    2. gain model selection
+
+    3. peak channel is centred
+
+
+
+Correlogram view:
+    1. x-axis - time (ms); y-axis - firing rate (Hz)
+    
+    2. Horizontal line: the baseline firing rate. 
+    
+    3. Vertical lines (2ms): the "refractory period"; change it with the view menu or with the :cr snippet.
+
+    4. the central peak is artificially removed to avoid artefacts. 
+    
+    5. Decrease the bin size (e.g. to 0.1 ms) if you need to visualize fine temporal structure.
+
+
+
+Feature View:
+    1. principal component projections of each cluster
+    
+    2. used to make decision on merge or not
+    
+    3. grey: principal component projections of other spikes on the current channel (not from the selected unit) 
+
+
+
+Trace view:
+    1. shows the raw data traces across all channels, with spikes from the selected clusters as well. 
+    
+    2. You can also choose to show spikes from all clusters, not just selected clusters.
+
+
+
+Cluster Scatter View:
+    1. x-axis - width of probe; y-axis - depth of probe
+    
+    2. size of the dot shows ...?
+
+
+
+
+General:
+  1.after "save," there'll be a .tsv which shows a summary of the label of clusters (noise, mua, or good).
+  
+  2. do NOT upgrade label, i.e., no mua to good
+  
+  3. noise/artefact: has same waveform across channels
+
+
+
+Current issue with running phy on aberlour:
+    1. no Feature View
+    
+    2. my laptop is too SLOWWWW
+    
+    3. 
+
+
+

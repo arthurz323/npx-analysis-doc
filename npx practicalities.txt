@@ -1,4 +1,4 @@
-# npx course UCL
+# Neuropixels course UCL
 
 ## Lecture 1.06 (Sylvia Schroeder)
     ## handle & solder
@@ -17,5 +17,11 @@
         
         d. connect the wire with crocodile clip or normal connector;
         
-        e. recommend: use lead-based solder, melt in lower temperature (320oC)
-
+        e. recommend: use lead-based solder, melt in lower temperature (320oC);
+    
+        f. soldering can introduce noise, do apply too much! (see adafruit soldering guide);
+        
+        g. check connection with voltmeter
+        
+    ## mounting
+    1. npx 1.0 may come with a metal cap, that allows to attach the probe directly to the stereotactic rod

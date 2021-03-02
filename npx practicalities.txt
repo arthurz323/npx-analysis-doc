@@ -4,5 +4,16 @@
     ## handle & solder
     1. lift the cover opposite to the the inside of the box, shank is *unprotected* underneath!
     
-    2.  
+    2. use a blunt object (e.g., the handle end of a forcep) to loosen the probe, and move it to a double-sided elevated tape to secure it;
+    
+    3. thread the ground/reference wire (2 twisted strands 35-36AWG Cu, from stranded hook-up wire) through two holes, one from the back side of the probe, and the front side of the other, make sure the size of the wire is the same as the hole;
+    
+    4. solder the ground/reference to the probe (extend the ground/reference electrodes on probe -> saline solution covering the brain can be grounded):
+        a. with probe face up: left is for ground, right is for reference;
+        
+        b. use the holes further away from the probe head (high temperature is damaging to the probe);
+        
+        c. touch the soldering iron to the wire, only little solder is needed;
+        
+        d. recommend: use lead-based solder, melt in lower temperature (320oC)
 

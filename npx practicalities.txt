@@ -24,4 +24,4 @@
         g. check connection with voltmeter
         
     ## mounting
-    1. npx 1.0 may come with a metal cap, that allows to attach the probe directly to the stereotactic rod
+    1. npx 1.0 *may* come with a metal cap, that allows to attach the probe directly to the stereotactic rod, but this is heavier & thicker

@@ -3,13 +3,13 @@
 # Lecture 1.06 (Sylvia Schroeder)
 
 ## handle & solder
-    1. lift the cover opposite to the the inside of the box, shank is *unprotected* underneath!
+1. lift the cover opposite to the the inside of the box, shank is *unprotected* underneath!
     
-    2. use a blunt object (e.g., the handle end of a forcep) to loosen the probe, and move it to a double-sided elevated tape to secure it;
+2. use a blunt object (e.g., the handle end of a forcep) to loosen the probe, and move it to a double-sided elevated tape to secure it;
     
-    3. thread the ground/reference wire (2 twisted strands 35-36AWG Cu, from stranded hook-up wire) through two holes, one from the back side of the probe, and the front side of the other, make sure the size of the wire is the same as the hole;
+3. thread the ground/reference wire (2 twisted strands 35-36AWG Cu, from stranded hook-up wire) through two holes, one from the back side of the probe, and the front side of the other, make sure the size of the wire is the same as the hole;
     
-    4. solder the ground/reference to the probe (extend the ground/reference electrodes on probe -> saline solution covering the brain can be grounded):
+4. solder the ground/reference to the probe (extend the ground/reference electrodes on probe -> saline solution covering the brain can be grounded):
         a. with probe face up: left is for ground, right is for reference;
 
 ![pic showing ground & reference](URL "title")
@@ -28,9 +28,9 @@
         
         
 ## mounting
-    1. npx 1.0 *may* come with a metal cap, that allows to attach the probe directly to the stereotactic rod, but this is heavier & thicker (not a problem if only doing acute recording)
+1. npx 1.0 *may* come with a metal cap, that allows to attach the probe directly to the stereotactic rod, but this is heavier & thicker (not a problem if only doing acute recording)
     
-    2. (optional) to attach the metal cap:
+2. (optional) to attach the metal cap:
         a. fix metal cap with double-sided tape on the table & align it to a straight marker;
     
         b. glue the probe to the metal cap (2-component glue epoxy) & align to the same marker;
@@ -41,7 +41,7 @@
     
     
 ## headstage & cable
-    1. connect ZIF (zero insertion force) area to the headstage:
+1. connect ZIF (zero insertion force) area to the headstage:
         a. front side (with numbers, smooth surface) face up;
         
         b. open the black lid of ZIF socket on the headstage;
@@ -52,7 +52,7 @@
         
         e. closely attach the headstage to the rod (with tape or anything 3D printed that fits)
         
-    2. connect interface cable (yellow & black) with the headstage
+2. connect interface cable (yellow & black) with the headstage
         a. cable is very thin & easily broken, attach carefully;
         
         b. do NOT leave the cable hanging as it may BREAK the probe;
@@ -64,45 +64,45 @@
         e. note: signal from the cable is already digital (converted on headstage), thus the length do NOT influence the signal
         
 ## manipulators (Duguid lab has Scientica (?))
-    1. *carefully plan the positioning & angle of the manipulators*!!
+1. *carefully plan the positioning & angle of the manipulators*!!
     
-    2. use dummy probe to simulate before actual recording;
+2. use dummy probe to simulate before actual recording;
     
-    3. note: with multiple probes, consider possible collisions (probe & probe, probe & manipulator) outside of the brain (inside is less worrisome)!
+3. note: with multiple probes, consider possible collisions (probe & probe, probe & manipulator) outside of the brain (inside is less worrisome)!
     
-    4. NewScale has npx-specific design
+4. NewScale has npx-specific design
     
     
 ## Insertion preparation
-    1. mark target/entry point on the skill (the craniotomy point & area around it) with a marker & *scratch* (marker can fade);
+1. mark target/entry point on the skill (the craniotomy point & area around it) with a marker & *scratch* (marker can fade);
     
-    2. size of the craniotomy needs to be compromised:
+2. size of the craniotomy needs to be compromised:
         a. too big: brain moves & less stability;
         
         b. too small: difficult to access, may need to cut the dura, & very little flexibility to place the probe from a different angle
         
-    3. make a well around the skull! (finished the design, but needs modification...)
+3. make a well around the skull! (finished the design, but needs modification...)
     
-    4. dye
+4. dye
         a. from a frog study in 1990, "DiI-labeled motoneurons reportedly have remained viable for up to four weeks in culture and up to one year in vivo." and "diI label still remained restricted to cell bodies in the lateral motor column after a year. "
         b. "DiIC12(3) (D383), DiIC16(3) (D384), and DiOC16(3) (D1125) have shorter alkyl substituents (C12 or C16) than DiI and DiO (C18). These slightly less lipophilic probes have been found by some to incorporate into membranes more easily than the DiI and DiO."
         c. touch the probe with drop then move the drop away, repeat till all locations are touched (i assume only the front side), this will leave more dye on the probe than moving the drop along the probe
         
     
 ## prep before the recording
-    1. calibrate manipulators
+1. calibrate manipulators
         a. in the highest position to avoid collisions;
         
         b. with the probes (more accurate as it adds weights;
         
         c. connect interface cable & ground cable *after* probes are in place;
         
-    2. positioning animal & grounding wire
+2. positioning animal & grounding wire
         a. all grounding cables (for each probe) should connect to a *single* wire to put into the well;
         
         b. make sure the grounding cable is *not* in the way of the probes;
     
-    3. probes insertion
+3. probes insertion
         a. easiest shortly after the craniotomy when the dura is still fresh;
         
         b. lower by hand till ~2cm away from the brain, then use the manipulator to continue lowering with consistent speed (2um/s works best);
@@ -135,18 +135,18 @@
         
 
 ## Probe care & re-use
-    1. soak in tergazyme (concentrated, anionic detergent with protease enzyme for manual and ultrasonic cleaning) >30mins;
+1. soak in tergazyme (concentrated, anionic detergent with protease enzyme for manual and ultrasonic cleaning) >30mins;
     
-    2. soak &/ rinse with deionized/distilled water (diH2O/dH2O, can keep probes dipped in until the next recording);
+2. soak &/ rinse with deionized/distilled water (diH2O/dH2O, can keep probes dipped in until the next recording);
     
-    3. other enzymatic cleaner or isopropyl alcohol also okay, but remember to clean/rinse before recording!
+3. other enzymatic cleaner or isopropyl alcohol also okay, but remember to clean/rinse before recording!
         
         
         
 # Lecture 2.02 (Nick Steinmetz)
 
 ## Gain settings
-    1. gain number (scaling factor): a number that is going to multiply the voltage values that are being recorded *before* they get digitised, i.e.,
+1. gain number (scaling factor): a number that is going to multiply the voltage values that are being recorded *before* they get digitised, i.e.,
     
     - the higher the gain, the bigger the amplitude of the voltage values,
     
@@ -158,16 +158,16 @@
 
     - **thus, gain setting is a fundamental trade-off between temporal resolution & encoding (signal) range.**
 
-    2. default gain settings:
+2. default gain settings:
 
 ***AP & LFP have different gain settings!***
  
-    | | gain setting | resolution (uV/bit) | range (mV) |
-    | - | - | - | - |
-    | LFP | 250 | 4.69 | -2.4 - 2.4 |
-    | AP | 500 | 2.34 | -1.2 - 1.2 |
+| | gain setting | resolution (uV/bit) | range (mV) |
+| - | - | - | - |
+| LFP | 250 | 4.69 | -2.4 - 2.4 |
+| AP | 500 | 2.34 | -1.2 - 1.2 |
 
-    3. it is possible to set gain for each channel in SpikeGLX *Configuration Acquisition*:
+3. it is possible to set gain for each channel in SpikeGLX *Configuration Acquisition*:
     - IM setup
     
     - Configuration and calibration (cal)
@@ -190,6 +190,6 @@
     - click "Verify I save" to check if any error exist
 
 ## Filtering
-    1. filters are *first-order*, i.e., weak, AP can appear on LFP, and vice-versa;
+1. filters are *first-order*, i.e., weak, AP can appear on LFP, and vice-versa;
     
-    2. 
+2. 

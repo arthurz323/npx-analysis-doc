@@ -10,6 +10,7 @@
 3. thread the ground/reference wire (2 twisted strands 35-36AWG Cu, from stranded hook-up wire) through two holes, one from the back side of the probe, and the front side of the other, make sure the size of the wire is the same as the hole;
     
 4. solder the ground/reference to the probe (extend the ground/reference electrodes on probe -> saline solution covering the brain can be grounded):
+
         a. with probe face up: left is for ground, right is for reference;
 
 ![pic showing ground & reference](URL "title")
@@ -31,6 +32,7 @@
 1. npx 1.0 *may* come with a metal cap, that allows to attach the probe directly to the stereotactic rod, but this is heavier & thicker (not a problem if only doing acute recording)
     
 2. (optional) to attach the metal cap:
+
         a. fix metal cap with double-sided tape on the table & align it to a straight marker;
     
         b. glue the probe to the metal cap (2-component glue epoxy) & align to the same marker;
@@ -42,6 +44,7 @@
     
 ## headstage & cable
 1. connect ZIF (zero insertion force) area to the headstage:
+
         a. front side (with numbers, smooth surface) face up;
         
         b. open the black lid of ZIF socket on the headstage;
@@ -53,6 +56,7 @@
         e. closely attach the headstage to the rod (with tape or anything 3D printed that fits)
         
 2. connect interface cable (yellow & black) with the headstage
+
         a. cable is very thin & easily broken, attach carefully;
         
         b. do NOT leave the cable hanging as it may BREAK the probe;
@@ -77,6 +81,7 @@
 1. mark target/entry point on the skill (the craniotomy point & area around it) with a marker & *scratch* (marker can fade);
     
 2. size of the craniotomy needs to be compromised:
+
         a. too big: brain moves & less stability;
         
         b. too small: difficult to access, may need to cut the dura, & very little flexibility to place the probe from a different angle
@@ -84,6 +89,7 @@
 3. make a well around the skull! (finished the design, but needs modification...)
     
 4. dye
+
         a. from a frog study in 1990, "DiI-labeled motoneurons reportedly have remained viable for up to four weeks in culture and up to one year in vivo." and "diI label still remained restricted to cell bodies in the lateral motor column after a year. "
         b. "DiIC12(3) (D383), DiIC16(3) (D384), and DiOC16(3) (D1125) have shorter alkyl substituents (C12 or C16) than DiI and DiO (C18). These slightly less lipophilic probes have been found by some to incorporate into membranes more easily than the DiI and DiO."
         c. touch the probe with drop then move the drop away, repeat till all locations are touched (i assume only the front side), this will leave more dye on the probe than moving the drop along the probe
@@ -91,6 +97,7 @@
     
 ## prep before the recording
 1. calibrate manipulators
+
         a. in the highest position to avoid collisions;
         
         b. with the probes (more accurate as it adds weights;
@@ -98,6 +105,7 @@
         c. connect interface cable & ground cable *after* probes are in place;
         
 2. positioning animal & grounding wire
+
         a. all grounding cables (for each probe) should connect to a *single* wire to put into the well;
         
         b. make sure the grounding cable is *not* in the way of the probes;

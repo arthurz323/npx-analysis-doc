@@ -91,7 +91,9 @@
 4. dye
 
         a. from a frog study in 1990, "DiI-labeled motoneurons reportedly have remained viable for up to four weeks in culture and up to one year in vivo." and "diI label still remained restricted to cell bodies in the lateral motor column after a year. "
+        
         b. "DiIC12(3) (D383), DiIC16(3) (D384), and DiOC16(3) (D1125) have shorter alkyl substituents (C12 or C16) than DiI and DiO (C18). These slightly less lipophilic probes have been found by some to incorporate into membranes more easily than the DiI and DiO."
+        
         c. touch the probe with drop then move the drop away, repeat till all locations are touched (i assume only the front side), this will leave more dye on the probe than moving the drop along the probe
         
     
@@ -162,9 +164,10 @@
     
     - the *smaller* the range (mV) of voltages can be encoded without going outside of the range of the ADC (analogue-to-digital converter);
 
+    - **thus, gain setting is a fundamental trade-off between temporal resolution & encoding (signal) range.**
+    
 ![gain setting table](URL "gain settings")
 
-    - **thus, gain setting is a fundamental trade-off between temporal resolution & encoding (signal) range.**
 
 2. default gain settings:
 

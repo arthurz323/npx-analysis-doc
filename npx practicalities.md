@@ -67,7 +67,7 @@
         
         e. note: signal from the cable is already digital (converted on headstage), thus the length do NOT influence the signal
         
-## manipulators (Duguid lab has Scientica (?))
+## manipulators (Duguid lab has Scientifica)
 1. *carefully plan the positioning & angle of the manipulators*!!
     
 2. use dummy probe to simulate before actual recording;

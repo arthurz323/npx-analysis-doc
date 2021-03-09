@@ -208,7 +208,7 @@
 
     - **thus, gain setting is a fundamental trade-off between temporal resolution & encoding (signal) range.**
     
-![gain setting table](URL "gain settings")
+![gain setting table](https://github.com/arthurz323/npx-analysis-doc/blob/master/pic/gain-setting.png "gain settings")
 
 
 2. default gain settings:

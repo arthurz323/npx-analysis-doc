@@ -57,7 +57,7 @@
     
     - **recommend**: one skull screws, use internal reference (probe tip)
     
-![npx reference scheme](/home/amz/Pictures/Screenshots/npx-reference-scheme.png)
+    ![npx reference scheme](https://github.com/arthurz323/npx-analysis-doc/blob/master/pic/npx-reference-scheme.png?raw=true)
 
 ---
 

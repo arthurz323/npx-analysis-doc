@@ -3,6 +3,7 @@
 # Lecture 1.06 (Sylvia Schroeder)
 
 ## handle & solder
+
 1. lift the cover opposite to the the inside of the box, shank is *unprotected* underneath!
     
 2. use a blunt object (e.g., the handle end of a forcep) to loosen the probe, and move it to a double-sided elevated tape to secure it;
@@ -27,6 +28,39 @@
         
     - check connection with voltmeter
         
+
+---
+
+***Lecture 1.3 (Carolina Mora Lopez)***
+
+### *difference between reference & ground?
+
+1. ground: a zero volt reference of a *system*, provides a low impedence path for the current in the electronics.
+
+    - defines a reference point of the input signal: with an amplifier (connected to input & reference electrodes), there will be an input range (+/- XmV), i.e., if set the amplifier to zero volt reference, the signal can go +/- XmV, anything outside is saturated.
+    
+    - if animal is *floating* (not grounded): signals is random, not centered at zero volt, cannot keep it within the signal range;
+
+    - if animal is grounded: set the animal to the same voltage as the electronics -> signal will be centered at zero volt -> keep it within the signal range.
+
+2. reference: negative input of the amplifier which picks up signals for common-mode noise cancellation.
+
+    - differential amplification: with a separate reference electrode, the amplifier can reject/remove common-mode noise;
+    
+    - single-ended amplification: connect reference to the ground (simple), i.e., reference to zero volt, common-mode noise will be amplified all together.
+    
+3. in npx, three options:
+
+    - two skull screws, one for reference & one for ground;
+    
+    - one skull screws, bridge reference & ground pin;
+    
+    - **recommend**: one skull screws, use internal reference (probe tip)
+    
+![npx reference scheme] (/home/amz/Pictures/Screenshots/npx-reference-scheme.png)
+
+---
+
         
 ## mounting
 1. npx 1.0 *may* come with a metal cap, that allows to attach the probe directly to the stereotactic rod, but this is heavier & thicker (not a problem if only doing acute recording)
@@ -68,6 +102,7 @@
     - note: signal from the cable is already digital (converted on headstage), thus the length do NOT influence the signal
         
 ## manipulators (Duguid lab has Scientifica)
+
 1. *carefully plan the positioning & angle of the manipulators*!!
     
 2. use dummy probe to simulate before actual recording;
@@ -78,6 +113,7 @@
     
     
 ## insertion preparation
+
 1. mark target/entry point on the skill (the craniotomy point & area around it) with a marker & *scratch* (marker can fade);
     
 2. size of the craniotomy needs to be compromised:
@@ -98,6 +134,7 @@
         
     
 ## prep before the recording
+
 1. calibrate manipulators
 
     - in the highest position to avoid collisions;
@@ -147,6 +184,7 @@
         
 
 ## probe care & re-use
+
 1. soak in tergazyme (concentrated, anionic detergent with protease enzyme for manual and ultrasonic cleaning) >30mins;
     
 2. soak &/ rinse with deionized/distilled water (diH2O/dH2O, can keep probes dipped in until the next recording);
@@ -159,6 +197,7 @@
 
 
 ## gain settings
+
 1. gain number (scaling factor): a number that is going to multiply the voltage values that are being recorded *before* they get digitised, i.e.,
     
     - the higher the gain, the bigger the amplitude of the voltage values,
@@ -182,6 +221,7 @@
 | AP | 500 | 2.34 | -1.2 to 1.2 |
 
 3. it is possible to set gain for each channel in SpikeGLX *Configuration Acquisition*:
+
     - IM setup -> *Configuration and calibration (cal)* -> edit...
         
         - Bank: position of the recording electrodes,
@@ -243,37 +283,6 @@
 
 7. with >2 probes, connect the grounding wires *before* sink in the saline bath
 
----
-
-## *Lecture 1.3 (Carolina Mora Lopez)
-
-### *difference between reference & ground?
-
-1. ground: a zero volt reference of a *system*, provides a low impedence path for the current in the electronics.
-
-    - defines a reference point of the input signal: with an amplifier (connected to input & reference electrodes), there will be an input range (+/- XmV), i.e., if set the amplifier to zero volt reference, the signal can go +/- XmV, anything outside is saturated.
-    
-    - if animal is *floating* (not grounded): signals is random, not centered at zero volt, cannot keep it within the signal range;
-
-    - if animal is grounded: set the animal to the same voltage as the electronics -> signal will be centered at zero volt -> keep it within the signal range.
-
-2. reference: negative input of the amplifier which picks up signals for common-mode noise cancellation.
-
-    - differential amplification: with a separate reference electrode, the amplifier can reject/remove common-mode noise;
-    
-    - single-ended amplification: connect reference to the ground (simple), i.e., reference to zero volt, common-mode noise will be amplified all together.
-    
-3. in npx, three options:
-
-    - two skull screws, one for reference & one for ground;
-    
-    - one skull screws, bridge reference & ground pin;
-    
-    - **recommend**: one skull screws, use internal reference (probe tip)
-    
-![npx reference scheme] (URL)
-
----
 
 ## site selection
 
